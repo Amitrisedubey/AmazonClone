@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  height: 60px;
+  width: 100%;
+}
+
+.searchbar {
+  display: flex;
+  width: 600px;
+  height: 40px;
+  border-radius: 8px;
+}
+.hovimage:hover {
+  border: 1px solid white;
+}
+/* .searchbar:hover {
+  display: flex;
+  border: 2px solid #f7d060;
+  width: 600px;
+  height: 40px;
+  border-radius: 8px;
+} */
+
+input[type="text"] {
+  width: 500px;
+}
+img {
+  margin-left: 15px;
+}
