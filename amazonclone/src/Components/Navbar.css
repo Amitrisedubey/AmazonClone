@@ -5,6 +5,7 @@
   gap: 5px;
   height: 60px;
   width: 100%;
+  position: static;
 }
 
 .searchbar {
