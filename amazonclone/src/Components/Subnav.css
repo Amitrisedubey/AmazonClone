@@ -1,3 +1,7 @@
 .hovimage:hover {
   border: 1px solid white;
 }
+.subnav {
+  width: 100%;
+  margin-top: 60px;
+}

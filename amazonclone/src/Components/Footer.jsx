@@ -28,11 +28,11 @@ export const Footer = () => {
             <p className="ptags2">Become an Affiliate</p>
             <p className="ptags2">Fulfilment by Amazon</p>
             <p className="ptags2">Advertise Your Products</p>
-            <p className="ptags2">Amazone Pay on Merchants</p>
+            <p className="ptags2">Amazon Pay on Merchants</p>
           </div>
           <div style={{ marginBottom: "30px" }}>
             <p className="ptags">Let Us Help You</p>
-            <p className="ptags2">COVID-19 and Amazone</p>
+            <p className="ptags2">COVID-19 and Amazon</p>
             <p className="ptags2">Your Account</p>
             <p className="ptags2">Returns Centre</p>
             <p className="ptags2">100% Purchase Protection</p>
@@ -79,6 +79,86 @@ export const Footer = () => {
                 <p className="ptags2">United States</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="foot2">
+        <div className="foot2f">
+          <div className="foo">
+            <p className="ptags3">AbeBooks</p>
+            <p className="ptags31">
+              Books, art <br /> & collectibles
+            </p>
+            <p className="ptags3" style={{ marginTop: "20px" }}>
+              Shopbop
+            </p>
+            <p className="ptags31">
+              Designer <br /> Fashion Brands
+            </p>
+          </div>
+          <div className="foo">
+            <p className="ptags3">Amazon Web Services</p>
+            <p className="ptags31">
+              Scalable Cloud <br /> Computing Services
+            </p>
+            <p className="ptags3" style={{ marginTop: "20px" }}>
+              Amazon Business
+            </p>
+            <p className="ptags31">
+              Everything For <br /> Your Business
+            </p>
+          </div>
+          <div className="foo">
+            <p className="ptags3">Audible</p>
+            <p className="ptags31">
+              Download <br /> Audio Books
+            </p>
+            <p className="ptags3" style={{ marginTop: "20px" }}>
+              Prime Now
+            </p>
+            <p className="ptags31">
+              2-Hour Delivery <br /> on Everyday items
+            </p>
+          </div>
+          <div className="foo">
+            <p className="ptags3">DPReview</p>
+            <p className="ptags31">
+              Digital <br /> Photography
+            </p>
+            <p className="ptags3" style={{ marginTop: "20px" }}>
+              Amazone Prime Music
+            </p>
+            <p className="ptags31">
+              100 million songs, ad-free <br /> Over 15 million podcast episodes
+            </p>
+          </div>
+          <div className="foo">
+            <p className="ptags3">IMDb</p>
+            <p className="ptags31">
+              Movies, TV <br /> & Celebrities
+            </p>
+            <p className="ptags3" style={{ marginTop: "20px" }}>
+              Amazon Prime Video
+            </p>
+            <p className="ptags31">
+              Movies, TV <br /> & Celebrities
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style={{ display: "flex", justifyContent: "center", gap: "15px" }}
+          >
+            <p className="ptags3">Conditions of Use & Sale</p>
+            <p className="ptags3">Privacy Notice</p>
+            <p className="ptags3">Interest Based Ads</p>
+          </div>
+          <div
+            style={{ display: "flex", justifyContent: "center", gap: "15px" }}
+          >
+            <p className="ptags3">
+              © 1996-2023, Amazon.com, Inc. or its affiliates
+            </p>
           </div>
         </div>
       </div>

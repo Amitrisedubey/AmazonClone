@@ -1,6 +1,9 @@
 .foot1all {
   background-color: #232f3e;
 }
+/* .footer {
+  position: relative;
+} */
 .foot1 {
   display: flex;
   justify-content: space-around;
@@ -38,4 +41,27 @@
   display: flex;
   gap: 8px;
   justify-content: center;
+}
+
+.foot2f {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.foo {
+  margin-top: 25px;
+}
+.foot2 {
+  background-color: #131a22;
+}
+.ptags3 {
+  font-size: 11px;
+  text-align: start;
+  color: #ddd;
+}
+.ptags31 {
+  font-size: 11px;
+  color: #ddd;
+  text-align: start;
 }

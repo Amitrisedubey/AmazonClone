@@ -3,6 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 export const Subnav = () => {
   return (
     <div
+      className="subnav"
       style={{
         backgroundColor: "#232f3e",
         height: "42px",
