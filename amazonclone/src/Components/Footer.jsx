@@ -40,6 +40,7 @@ export const Footer = () => {
             <p className="ptags2">Help</p>
           </div>
         </div>
+      
         <hr color="teal" />
         <div>
           <div className="nav2">

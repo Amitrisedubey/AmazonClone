@@ -1,3 +1,11 @@
+import { Footer } from "./Footer";
+import { Sliders } from "./slider";
+
 export const Home = () => {
-  return <div>Homepage here</div>;
+  return (
+    <div>
+      <Sliders />
+      <Footer />
+    </div>
+  );
 };

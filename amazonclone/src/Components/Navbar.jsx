@@ -92,31 +92,38 @@ export const Navbar = () => {
         <h1 style={{ fontFamily: "bold", fontSize: "15px" }}>EN</h1>
         <ArrowDropDownIcon />
       </div>
-      <div
-        className="hovimage"
-        style={{
-          color: "white",
-          height: "50px",
-          width: "150px",
-          display: "inline-block",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "left",
-        }}
-      >
-        <p style={{ fontSize: "12px", margin: "auto", marginTop: "7px" }}>
-          Hello, signin
-        </p>
-
+      <Link to="/login">
         <div
-          style={{ display: "flex", marginRight: "20px", marginBottom: "10px" }}
+          className="hovimage"
+          style={{
+            color: "white",
+            height: "50px",
+            width: "150px",
+            display: "inline-block",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "left",
+          }}
         >
-          <p style={{ fontSize: "14px", margin: "auto", fontWeight: "bold" }}>
-            Account & Lists
+          <p style={{ fontSize: "12px", margin: "auto", marginTop: "7px" }}>
+            Hello, signin
           </p>
-          <ArrowDropDownIcon />
+
+          <div
+            style={{
+              display: "flex",
+              marginRight: "20px",
+              marginBottom: "10px",
+            }}
+          >
+            <p style={{ fontSize: "14px", margin: "auto", fontWeight: "bold" }}>
+              Account & Lists
+            </p>
+            <ArrowDropDownIcon />
+          </div>
         </div>
-      </div>
+      </Link>
+
       <div
         className="hovimage"
         style={{

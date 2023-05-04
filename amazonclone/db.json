@@ -1,0 +1,184 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Apple iPhone 13 Pro",
+            "descr": "6.1-inch (15.5 cm diagonal) Super Retina XDR display with ProMotion 12MP TrueDepth front camera with Portrait mode, Depth Control, Portrait Lighting, and Smart HDR 4",
+            "img": "https://m.media-amazon.com/images/I/61KeIxmldLL._AC_UY218_.jpg",
+            "categoriesId": 4,
+            "price": "119900",
+            "category": "electronics",
+            "type": "mobile"
+        },
+        {
+            "id": 13,
+            "title": "iQOO Z6 5G",
+            "descr": "The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic, in which case it will be UL or Mfi (“Made for iPhone”) Certified. ",
+            "img": "https://m.media-amazon.com/images/I/71i2XhHU3pL._AC_UY218_.jpg",
+            "categoriesId": 4,
+            "price": "16999",
+            "category": "electronics"
+        },
+        {
+            "id": 14,
+            "title": "Vivo Y73",
+            "descr": "The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic, in which case it will be UL or Mfi (“Made for iPhone”) Certified. ",
+            "img": "https://m.media-amazon.com/images/I/51emzGhS57S._SX679_.jpg",
+            "categoriesId": 4,
+            "price": "338.00",
+            "category": "electronics",
+            "type": "mobile"
+        },
+        {
+            "id": 2,
+            "title": "OPPO A74 5G",
+            "descr": "Easily store and access 2TB of content on the go with the Seagate Portable Drive, a USB external hard drive ",
+            "img": "https://m.media-amazon.com/images/I/71geVdy6-OS._SX679_.jpg",
+            "categoriesId": 4,
+            "price": "21990",
+            "category": "electronics",
+            "type": "harddisk"
+        },
+        {
+            "id": 3,
+            "title": "iQOO 9 SE 5G",
+            "descr": "Qualcomm Snapdragon 888 5G Mobile Platform is based on a new 5 nm process and a Kryo680 architecture, Compared with Snapdragon 870, the CPU performance improves by 25%, GPU performance by 35%. Along with Enhanced LPDDR 5 & Enhanced UFS 3.1 (V6). ",
+            "img": "https://images-eu.ssl-images-amazon.com/images/I/41UwKwpK40L._SX300_SY300_QL70_FMwebp_.jpg",
+            "categoriesId": 4,
+            "price": "25600",
+            "category": "electronics",
+            "type": "tv"
+        },
+        {
+            "id": 11,
+            "title": "Samsung Galaxy S21 FE 5G",
+            "descr": "Pro-grade Camera with AI Single Take, Portrait Mode, Night Mode and 30X Space zoom. Dual Recording: Film in both wide and selfie angles at the same time | 12MP F1.8 Main Camera (Dual Pixel AF & OIS) + 12MP UltraWide Camera (123° FOV) + 8MP Telephoto Camera (3x Optic Zoom, 30X Space Zoom, OIS) | 32 MP F2.2 Front Camera. ",
+            "img": "https://m.media-amazon.com/images/I/81cHpJNr07L._SX679_.jpg",
+            "categoriesId": 4,
+            "price": "53000",
+            "category": "electronics",
+            "type": "tv"
+        },
+        {
+            "id": 4,
+            "title": " Bajaj Cooler",
+            "descr": "It has cooling coverage area of 100sq feet and the 10 feet good air toss, 2 or3 person will good sleep. ",
+            "img": "https://m.media-amazon.com/images/I/61Q6E7laZjL._SY879_.jpg",
+            "categoriesId": 1,
+            "price": "8550",
+            "category": "home",
+            "type": "cleaning"
+        },
+        {
+            "id": 12,
+            "title": "AmazonBasic 4K TV ",
+            "descr": "AI motion detection alert. The camera angle is 110 degree and the connectivity is Wi-Fi IEEE 802.11 b/g/n 2.4 GHz. Storage:MicroSD card (support 16GB -64GB, Class 10 and above storage card)",
+            "img": "https://m.media-amazon.com/images/I/71sFjIGl9UL._SX679_.jpg",
+            "categoriesId": 1,
+            "price": "25000",
+            "category": "home",
+            "type": "camera"
+        },
+        {
+            "id": 5,
+            "title": "Livpure Bolt",
+            "descr": "7 Stage Purification: 7 stages of advanced purification: 1) Super Sediment Filter 2) Carbon Block Filter 3) Anti-scalant Cartridge 4) RO Membrane 5) Mineral Cartridge/Mineraliser 6) Copper 29 Minerals Cartridge 7) In tank UV Sterilization at every hour.",
+            "img": "https://m.media-amazon.com/images/I/41mwFQl-05L._SX466_.jpg",
+            "categoriesId": 1,
+            "price": "19000",
+            "category": "home",
+            "type": "freashner"
+        },
+        {
+            "id": 6,
+            "title": "Whirlpool 260 L Frost-Free Multi-Door Refrigerator",
+            "descr": "Bottom Mounted Refrigerator with turbo icing Technology that ensures that you get ice within 60 minutes. ",
+            "img": "https://m.media-amazon.com/images/I/61rPrLsZHrL._SY679_.jpg",
+            "categoriesId": 2,
+            "price": "28990",
+            "category": "fashion",
+            "type": "shirt"
+        },
+        {
+            "id": 7,
+            "title": "Haier 346 L 3 Star Frost Free with inverter Double Door Refrigerator",
+            "descr": "Bottom Mounted Refrigerator with turbo icing Technology that ensures that you get ice within 60 minutes.",
+            "img": "https://m.media-amazon.com/images/I/71yPx7MW81L._SX679_.jpg",
+            "categoriesId": 2,
+            "price": "34990",
+            "category": "fashion",
+            "type": "bag"
+        },
+        {
+            "id": 11,
+            "title": "Samsung 198 L 3 Star Inverter Direct cool Single Door Refrigerator",
+            "descr": "Enjoy greater energy efficiency, less noise and a long-lasting performance. The Digital Inverter Compressor automatically adjusts its speed in response to cooling demand. ",
+            "img": "https://m.media-amazon.com/images/I/71FoswoWtLS._SY679_.jpg",
+            "categoriesId": 2,
+            "price": "15000",
+            "category": "fashion",
+            "type": "scarf"
+        },
+        {
+            "id": 15,
+            "title": "Samsung 225 L 4 Star Inverter Direct cool Single Door Refrigerator",
+            "descr": "The Samsung New Single Door refrigerator offers more storage space. It has extra 10L more internal capacity. ",
+            "img": "https://m.media-amazon.com/images/I/31QSYgZtuML.jpg",
+            "categoriesId": 2,
+            "price": "28500",
+            "category": "fashion",
+            "type": "scarf"
+        },
+        {
+            "id": 16,
+            "title": "LG 260 L 2 Star Smart Inverter Frost-Free Double Door Refrigerator",
+            "descr": "Frost Free Refrigerator: Auto defrost function to prevent ice-build up. ",
+            "img": "https://m.media-amazon.com/images/I/51XfUywFkDL._SY679_.jpg",
+            "categoriesId": 2,
+            "price": "54000",
+            "category": "fashion",
+            "type": "scarf"
+        },
+        {
+            "id": 17,
+            "title": "Hitachi 489 L 2 Star Frost Free Inverter Double Door Refrigerator",
+            "descr": "Capacity 489 litres: Suitable for families with 2 to 4 members Energy Rating : 2 Star - High energy efficiency ",
+            "img": "https://m.media-amazon.com/images/I/71FUMfYHpzL._SY679_.jpg",
+            "categoriesId": 2,
+            "price": "28000",
+            "category": "fashion",
+            "type": "scarf"
+        },
+        {
+            "id": 8,
+            "title": "Philips Audio SPA4040B/94 5.1 Channel",
+            "descr": "The highly anticipated sequel to the global bestseller 12 Rules for Life.",
+            "img": "https://m.media-amazon.com/images/I/51uASsTggYS._SY450_.jpg",
+            "categoriesId": 3,
+            "price": "4699",
+            "category": "book",
+            "type": "motivation"
+        },
+        {
+            "id": 9,
+            "title": "boAt Rockerz 370 Bluetooth Wireless On Ear Headphone",
+            "descr": "Battery: Rockerz 370 offers a playback time of up to 12 hours. Impedance 32Ω, Sensitivity (dB) 79dB±3DB, Frequency Response 20Hz-20KHz",
+            "img": "https://m.media-amazon.com/images/I/61+paS1uwjL._AC_SX480_SY360_.jpg",
+            "categoriesId": 3,
+            "price": "1299",
+            "category": "book",
+            "type": "stories"
+        },
+        {
+            "id": 10,
+            "title": "Zoook Rocker Thunder 20 watts Bluetooth Party Speaker",
+            "descr": "Zoook Rocker Thunder 20 watts Bluetooth Party Speaker, Superior sound quality Whenever life takes you, experience your music with powerful stereo sound and punching bass, Items Included: Zoook Rocker Thunder Bluetooth Speaker, Wired Microphone, 3.5m Aux Cable, Micro USB Charging Cable, User Guide, Certificate of Authenticity",
+            "img": "https://m.media-amazon.com/images/I/61D5DMDOdLL._SX466_.jpg",
+            "categoriesId": 3,
+            "price": "1899",
+            "category": "book",
+            "type": "poem"
+        }
+    ],
+    "cart": []
+}
