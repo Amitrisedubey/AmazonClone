@@ -1,0 +1,35 @@
+.main {
+  background-color: rgb(192, 219, 243);
+}
+.productlist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.productlist > div {
+  cursor: pointer;
+  height: 430px;
+  width: 300px;
+  margin-left: 15px;
+  background-color: white;
+}
+.tagsall {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+}
+.pro > div {
+  width: 125px;
+  height: 120px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.pro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 350px;
+}

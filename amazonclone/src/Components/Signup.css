@@ -1,0 +1,44 @@
+.signup1 {
+  display: inline-block;
+}
+.signup2 {
+  border: 1px solid #ddd;
+  width: 350px;
+  gap: 25px;
+  border-radius: 8px;
+}
+.signup2 p {
+  text-align: start;
+  margin-left: 20px;
+  font-size: 28px;
+}
+.signup2 label {
+  margin-right: 207px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: start;
+}
+.signup2 input[type="text"] {
+  width: 292px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  height: 28px;
+}
+.signup2 input[type="password"] {
+  width: 292px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  height: 28px;
+}
+.signup2 input[type="number"] {
+  height: 28px;
+  width: 210px;
+}
+.signup2 button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background: #ffd814;
+  border-color: #fcd200;
+  border-radius: 8px;
+}
