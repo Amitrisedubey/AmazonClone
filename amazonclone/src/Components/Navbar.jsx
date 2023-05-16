@@ -4,6 +4,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
 import { AddShoppingCart } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import logo from "./amazonlogo.jpg";
 export const Navbar = () => {
   return (
     <nav className="navbar" style={{ background: "#131921" }}>
@@ -11,7 +12,7 @@ export const Navbar = () => {
         <Link to="/">
           <img
             className="imagehov"
-            src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fjpeg&attachment_token=AH2N4gT%2Bc9mS5QMY7qP1RuHWvgJYrRtuD69YHf15BpSJy0GJtS5HkdcpVI6jWckMCpZ35rHeAUpdLLAnTFBFuxm69wzmT%2BpbtYG%2BU58Z3BARs3FSUdRcVEXjWwmUhRm%2BoFAkCIrW4hlPMUl2VsR8JWGDLSJWZI7tJJ1lZgspeUUqF9uHHazoFKOqYO8nIgaIWx7EKUNEmDH5nUBojCDvmnUx67La5eGaT9tHU4p4v20IuunyxyHqtuTCAoJEIYUaFO7l2z7PUFjBtvl%2B0zMi8L5y22UgE2mk11WPl535siAPsGcCA4asUvXLOK8y%2B%2BMLCGb74iUXCtfu2u2DnRKPzHKhcdYqFzpe7g%2F68q9aKtLm6H8kk75mBv2uyNAj2DaF0ENwDNwkwV5tPM9zCTSBLC9ZL3DaEZmAJEF4DQl3hIH0Idf%2Buu1sUS%2FrQk5Qb0A7uB%2FG6bVBCNhBaU2pw%2Bu6GlUTiE%2FzggCI%2FjtDsoXSmrfhppCt9Cuc5qgzEj4fopAGLFi3Oe8yZ5ywoaK5lCQYlRPommIwJnCex%2FoKDDHAF9VjY5%2Fha4SKcBlgXILHsgxTVLASzEkqYarkatZmjEhy%2BgIYwcq2NOPChVojlvltl9zeMPjH6ZXEGeKwuA%3D%3D&sz=w512"
+            src={logo}
             alt=""
             srcset=""
             height={45}
@@ -19,32 +20,36 @@ export const Navbar = () => {
           />
         </Link>
       </div>
+      <Link to="login">
+        {" "}
+        <div
+          className="hovimage"
+          style={{
+            color: "white",
+            display: "flex",
+            height: "50px",
+            width: "150px",
+          }}
+        >
+          <div style={{ display: "flex", marginTop: "18px" }}>
+            <FmdGoodOutlinedIcon />
+          </div>
 
-      <div
-        className="hovimage"
-        style={{
-          color: "white",
-          display: "flex",
-          height: "50px",
-          width: "150px",
-        }}
-      >
-        <div style={{ display: "flex", marginTop: "18px" }}>
-          <FmdGoodOutlinedIcon />
+          <div style={{ display: "inline-block" }}>
+            <h1
+              style={{
+                fontSize: "12px",
+                textAlign: "left",
+              }}
+            >
+              Hello
+              <br />
+              Select your address
+            </h1>
+          </div>
         </div>
-        <div style={{ display: "inline-block" }}>
-          <h1
-            style={{
-              fontSize: "12px",
-              textAlign: "left",
-            }}
-          >
-            Hello
-            <br />
-            Select your address
-          </h1>
-        </div>
-      </div>
+      </Link>
+
       <div className="searchbar">
         <button
           style={{

@@ -1,6 +1,8 @@
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import "./Allitems.css";
+import { useNavigate } from "react-router-dom";
 export const ItemsList = () => {
+  const navigate = useNavigate();
   return (
     <div className="main">
       <div className="productlist">
@@ -25,7 +27,13 @@ export const ItemsList = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div
+          onClick={() =>
+            navigate(
+              `/showProduct/${"home"}/${"freshner"}/${"cleaning"}/${"camera"}`
+            )
+          }
+        >
           <h1 className="tagsall">Smartphones that suits your budget</h1>
           <div className="pro">
             <div>
@@ -110,7 +118,13 @@ export const ItemsList = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div
+          onClick={() =>
+            navigate(
+              `/showProduct/${"kitchen"}/${"kitchenitem"}/${"items"}/${"list"}`
+            )
+          }
+        >
           <p className="tagsall">Starting ₹79 | Home, kitchen & more</p>
           <div className="pro">
             <div>
@@ -216,7 +230,13 @@ export const ItemsList = () => {
             />
           </div>
         </div>
-        <div>
+        <div
+          onClick={() =>
+            navigate(
+              `/showProduct/${"homes"}/${"homeitemitem"}/${"homeitems"}/${"homeitemlist"}`
+            )
+          }
+        >
           <p className="tagsall">Starting ₹99 | Amazon Brands & more</p>
           <div className="pro">
             <div>
@@ -320,7 +340,13 @@ export const ItemsList = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div
+          onClick={() =>
+            navigate(
+              `/showProduct/${"clothing"}/${"footwear"}/${"beauty"}/${"jewellery"}`
+            )
+          }
+        >
           <p className="tagsall">Under ₹499 | Pocket-friendly Fashion</p>
           <div className="pro">
             <div>
@@ -404,7 +430,11 @@ export const ItemsList = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div
+          onClick={() =>
+            navigate(`/showProduct/${"kitcn"}/${"item"}/${"items"}/${"list"}`)
+          }
+        >
           <p className="tagsall">
             Starting ₹99 | Budget buys in books, toys & more
           </p>
