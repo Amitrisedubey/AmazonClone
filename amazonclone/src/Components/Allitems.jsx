@@ -30,7 +30,7 @@ export const ItemsList = () => {
         <div
           onClick={() =>
             navigate(
-              `/showProduct/${"home"}/${"freshner"}/${"cleaning"}/${"camera"}`
+              `/showProduct/${"electronics"}/${"mobile"}/${"harddisk"}/${"tv"}`
             )
           }
         >
@@ -121,7 +121,7 @@ export const ItemsList = () => {
         <div
           onClick={() =>
             navigate(
-              `/showProduct/${"kitchen"}/${"kitchenitem"}/${"items"}/${"list"}`
+              `/showProduct/${"home"}/${"freashner"}/${"cleaning"}/${"camera"}`
             )
           }
         >
@@ -232,9 +232,7 @@ export const ItemsList = () => {
         </div>
         <div
           onClick={() =>
-            navigate(
-              `/showProduct/${"homes"}/${"homeitemitem"}/${"homeitems"}/${"homeitemlist"}`
-            )
+            navigate(`/showProduct/${"fashion"}/${"shirt"}/${"bag"}/${"scarf"}`)
           }
         >
           <p className="tagsall">Starting ₹99 | Amazon Brands & more</p>
@@ -342,9 +340,7 @@ export const ItemsList = () => {
         </div>
         <div
           onClick={() =>
-            navigate(
-              `/showProduct/${"clothing"}/${"footwear"}/${"beauty"}/${"jewellery"}`
-            )
+            navigate(`/showProduct/${"fashion"}/${"shirt"}/${"bag"}/${"scarf"}`)
           }
         >
           <p className="tagsall">Under ₹499 | Pocket-friendly Fashion</p>
@@ -432,7 +428,7 @@ export const ItemsList = () => {
         </div>
         <div
           onClick={() =>
-            navigate(`/showProduct/${"kitcn"}/${"item"}/${"items"}/${"list"}`)
+            navigate(`/showProduct/${"fashion"}/${"shirt"}/${"bag"}/${"scarf"}`)
           }
         >
           <p className="tagsall">

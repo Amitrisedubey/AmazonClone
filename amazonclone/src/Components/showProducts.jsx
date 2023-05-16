@@ -1,33 +1,66 @@
-import { Button, Stack } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Stack,
+  Typography,
+} from "@mui/material";
 import "./showProducts.css";
-import { useNavigate, useParams } from "react-router-dom";
-import { useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { getProduct } from "../Features/Products/action";
 export const Product = () => {
-  const [sorting, setSorting] = useState("");
-  const [categorytype, setCategoryType] = useState("");
-  console.log(categorytype);
-  const { cat, type1, type2, type3 } = useParams();
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const productsdata = () => {
+    fetch(" http://localhost:3001/products")
+      .then((d) => d.json())
+      .then((product) => {
+        dispatch(getProduct(product));
+      });
+  };
+  useEffect(() => {
+    productsdata();
+  }, []);
 
-  // const res = useSelector((state) => state.reducer.data);
-  // console.log("res" + res);
+  const res = useSelector((state) => state.data);
   return (
     <div className="showproduct">
-      <h4>Sort by Price</h4>
+      <h1>Sort by price</h1>
       <Stack spacing={2} direction="row">
-        <Button variant="contained">Low To High</Button>
-        <Button variant="contained">High To Low</Button>
-      </Stack>
-
-      <Stack spacing={2} direction="row">
-        <Button onClick={() => setCategoryType("")}>type 1</Button>
-        <Button onClick={() => setCategoryType(type1)}>type 2</Button>
-        <Button onClick={() => setCategoryType(type2)}>type 3</Button>
-        <Button onClick={() => setCategoryType(type3)}>type 4</Button>
+        <Button variant="outlined">Low to High</Button>
+        <Button variant="outlined">High to Low</Button>
       </Stack>
       <h1>Show Products</h1>
-      <div className="showproduct1"></div>
+      <div className="cont1">
+        {res.map((d, i) => (
+          <div key={i}>
+            <Box width="300px">
+              <Card>
+                <CardMedia
+                  component="img"
+                  height="280"
+                  image={d.img}
+                  className="Productimage"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {d.title}
+                  </Typography>
+                  <Typography gutterBottom variant="p" component="div">
+                    Rs. {d.price}
+                  </Typography>
+                </CardContent>
+                <CardActions className="btn">
+                  <Button variant="contained">Buy Now</Button>
+                </CardActions>
+              </Card>
+            </Box>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
