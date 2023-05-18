@@ -1,8 +1,11 @@
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import "./Signin.css";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../Contexts/authContext";
 export const Login = () => {
   const navigate = useNavigate();
+  const { handleToken } = useContext(AuthContext);
   return (
     <div>
       <div style={{ boxShadow: " rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;" }}>
@@ -42,6 +45,7 @@ export const Login = () => {
           <button
             className="button2"
             onClick={() => {
+              handleToken("5445545");
               navigate("/register");
             }}
           >

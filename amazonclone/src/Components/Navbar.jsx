@@ -5,7 +5,9 @@ import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
 import { AddShoppingCart } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import logo from "./amazonlogo.jpg";
+import { useSelector } from "react-redux";
 export const Navbar = () => {
+  const cartdata = useSelector((state) => state.cartState.cartItems);
   return (
     <nav className="navbar" style={{ background: "#131921" }}>
       <div className="hovimage">
@@ -148,20 +150,22 @@ export const Navbar = () => {
           & Orders
         </p>
       </div>
-      <div
-        className="hovimage"
-        style={{
-          color: "white",
-          display: "flex",
-          height: "50px",
-          width: "85px",
-        }}
-      >
-        <AddShoppingCart
-          style={{ color: "white", marginTop: "10px", marginLeft: "10px" }}
-        />
-        <p style={{ fontWeight: "bold" }}>Cart</p>
-      </div>
+      <Link to={"/cart"}>
+        <div
+          className="hovimage"
+          style={{
+            color: "white",
+            display: "flex",
+            height: "50px",
+            width: "85px",
+          }}
+        >
+          <AddShoppingCart
+            style={{ color: "white", marginTop: "10px", marginLeft: "10px" }}
+          />
+          <p style={{ fontWeight: "bold" }}>Cart({cartdata.length})</p>
+        </div>
+      </Link>
     </nav>
   );
 };
